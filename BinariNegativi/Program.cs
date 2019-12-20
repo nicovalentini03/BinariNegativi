@@ -8,14 +8,17 @@ namespace BinariNegativi
         {
             int a = int.MaxValue;
             Console.WriteLine(a);
-            Console.WriteLine(a + 1);
+            if (a == 214783647)
+            {
+                Console.WriteLine(a + 1);
+            }
             //Nella riga 10 viene stampato il numero massimo di una variabile int,
             //nella riga 11 il programma va in overflow perchè è stato superato il massimo numero di una var intera
-
             int b = -128;
             int c = -b;
             Console.WriteLine(Convert.ToString(b, 2));
             Console.WriteLine(Convert.ToString(c, 2));
+            //nella riga 15 il numero 128 viene converito in binario e poi stampato
             int value = 31;
             int somma = value;
             value = ~value + 1;//NOT
