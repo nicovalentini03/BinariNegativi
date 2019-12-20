@@ -9,6 +9,9 @@ namespace BinariNegativi
             int a = int.MaxValue;
             Console.WriteLine(a);
             Console.WriteLine(a + 1);
+            //Nella riga 10 viene stampato il numero massimo di una variabile int,
+            //nella riga 11 il programma va in overflow perchè è stato superato il massimo numero di una var intera
+
             int b = -128;
             int c = -b;
             Console.WriteLine(Convert.ToString(b, 2));
