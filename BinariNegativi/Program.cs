@@ -20,8 +20,8 @@ namespace BinariNegativi
             somma = somma + value;
             long number = 55555;
             Console.WriteLine(Convert.ToString(number, 2));
-            short number1 = (short)number;
-            Console.WriteLine(number1);
+            short number2 = (short)number;
+            Console.WriteLine(number2);
         }
     }
 }
